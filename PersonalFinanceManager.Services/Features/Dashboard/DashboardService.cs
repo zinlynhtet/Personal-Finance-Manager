@@ -72,7 +72,7 @@ namespace PersonalFinanceManager.Services.Features
             }
             catch
             {
-                model.Message = "Not availabe currently. It might be coming soon!";
+                model.Message = "Not available currently. It might be coming soon!";
                 model.IsSuccess = false;
             }
             return model;
